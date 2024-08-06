@@ -7,7 +7,7 @@ from infra.stack import InfraStack
 
 
 app = cdk.App()
-InfraStack(app, "DrgInfraStack",
+InfraStack(app, "InfraStack",
               env = cdk.Environment(
                   account=os.getenv('CDK_DEFAULT_ACCOUNT'),
                   region=os.getenv('CDK_DEFAULT_REGION')))
