@@ -6,4 +6,4 @@ app = FastAPI()
 # Using this endpoint for health check
 @app.get("/")
 def read_root():
-    return "DRG Grouper Service"
+    return "Hello World"
